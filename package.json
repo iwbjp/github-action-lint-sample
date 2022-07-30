@@ -1,0 +1,24 @@
+{
+  "name": "github-action-lint-sample",
+  "version": "1.0.0",
+  "description": "GitHub ActionのLint Actionを使用したサンプル",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint src/js/**/*.js"
+ },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwbjp/github-action-lint-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwbjp/github-action-lint-sample/issues"
+  },
+  "homepage": "https://github.com/iwbjp/github-action-lint-sample#readme",
+  "devDependencies": {
+    "@cybozu/eslint-config": "^17.0.2",
+    "eslint": "^8.20.0"
+  }
+}

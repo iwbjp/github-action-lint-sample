@@ -1,0 +1,5 @@
+env:
+  browser: true
+extends: '@cybozu'
+rules:
+  eqeqeq: error
